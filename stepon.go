@@ -50,9 +50,9 @@ func ApplyDiscount(subtotal float64) (discounted float64) {
 	return
 }
 
-var units *int = flag.Int("units", 0, "Number of units to sell")
-var price *float64 = flag.Float64("price", 0.0, "Unit price")
-var state *string = flag.String("state", "", "State to Check")
+var units *int = flag.Int("units", 0, "Number of units to sell. Defaults to 0")
+var price *float64 = flag.Float64("price", 0.0, "Unit price, defaults to 0.0.")
+var state *string = flag.String("state", "", "State to Check. If no state is included, assume no sales tax (out of state).")
 
 func main() {
 	var subtotal, total, tax float64
