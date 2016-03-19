@@ -10,6 +10,15 @@ func TestGetStates(t *testing.T) {
 	}
 }
 
+func TestGetTotal(t *testing.T) {
+	expected := "Total: 108.00"
+	result := GetTotal(5, 20, "NV")
+	if expected != result {
+		t.Logf("%v is not expected value of %v", result, expected)
+		t.Fail()
+	}
+}
+
 func TestSubtotalCalculation(t *testing.T) {
 	var units int
 	var price float64

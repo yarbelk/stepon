@@ -63,13 +63,10 @@ func GetAppName() string {
 	return "Stepon Androids!"
 }
 
+// GetTotal will return the output string for a total amount
 func GetTotal(units int, price float64, state string) string {
 	subtotal := GetSubtotal(units, price)
 	discounted := ApplyDiscount(subtotal)
 	total := ApplyTax(discounted, GetTaxRate(state))
-	return fmt.Sprintf("Total: %f", total)
+	return fmt.Sprintf("Total: %.2f", total)
 }
-
-// var units *int = flag.Int("units", 0, "Number of units to sell. Defaults to 0")
-// var price *float64 = flag.Float64("price", 0.0, "Unit price, defaults to 0.0.")
-// var state *string = flag.String("state", "", "State to Check. If no state is included, assume no sales tax (out of state).")

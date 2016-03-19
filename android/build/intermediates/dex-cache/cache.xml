@@ -1,2 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
+
+    <item
+        jar="/home/aesir/go/src/github.com/yarbelk/stepon/android/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="673d77a5bbddd766037f088e775df525c46407f0">
+        <dex dex="/home/aesir/go/src/github.com/yarbelk/stepon/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.2.1_4fac6d43be1f19fd876788c4a46a5306866a4f90.jar" />
+    </item>
+    <item
+        jar="/home/aesir/go/src/github.com/yarbelk/stepon/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
+        <dex dex="/home/aesir/go/src/github.com/yarbelk/stepon/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.2.1_09c472d8f51ea70b415a1edf6010a6d722d1252c.jar" />
+    </item>
+    <item
+        jar="/home/aesir/go/src/github.com/yarbelk/stepon/android/app/build/intermediates/exploded-aar/android/libstepon/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="92efb3f5427876a89c8e90a8f70e3a06fc9e75d7">
+        <dex dex="/home/aesir/go/src/github.com/yarbelk/stepon/android/app/build/intermediates/pre-dexed/debug/android-libstepon-unspecified_57bdd371bcba7f03bc9b0cd59aa07ffb607371e8.jar" />
+    </item>
+    <item
+        jar="/home/aesir/go/src/github.com/yarbelk/stepon/android/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
+        <dex dex="/home/aesir/go/src/github.com/yarbelk/stepon/android/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.2.1_872e76753dba65a5ee82dc6449245ded3a5cd7f6.jar" />
+    </item>
+    <item
+        jar="/home/aesir/go/src/github.com/yarbelk/stepon/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/libs/internal_impl-23.2.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
+        <dex dex="/home/aesir/go/src/github.com/yarbelk/stepon/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.2.1_8d9e9b944c6023b8bb3ee1f7ff1450956b7e47fa.jar" />
+    </item>
+    <item
+        jar="/home/aesir/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.2.1/support-annotations-23.2.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
+        <dex dex="/home/aesir/go/src/github.com/yarbelk/stepon/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.2.1_da36460f1555376f3b879210b7f1e2168f5f5971.jar" />
+    </item>
+    <item
+        jar="/home/aesir/go/src/github.com/yarbelk/stepon/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
+        <dex dex="/home/aesir/go/src/github.com/yarbelk/stepon/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.2.1_a53dae4b9b4a7685ee9648a20f31e442ec87f5d6.jar" />
+    </item>
+    <item
+        jar="/home/aesir/go/src/github.com/yarbelk/stepon/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e3885783ff8926ed9e2fdcd16816c2e1e73e7aee">
+        <dex dex="/home/aesir/go/src/github.com/yarbelk/stepon/android/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.2.1_35497569d79356174f45d9504b217adeb3730483.jar" />
+    </item>
+    <item
+        jar="/home/aesir/go/src/github.com/yarbelk/stepon/android/app/build/intermediates/exploded-aar/com.android.support/design/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="72961d8b453b46e277702f18de9d210bc019e36e">
+        <dex dex="/home/aesir/go/src/github.com/yarbelk/stepon/android/app/build/intermediates/pre-dexed/debug/com.android.support-design-23.2.1_8e0cb2d4f160d7a72bbf4939bf22764ae43bba37.jar" />
+    </item>
+
+</items>
