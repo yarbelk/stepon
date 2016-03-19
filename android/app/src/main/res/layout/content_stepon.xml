@@ -42,9 +42,8 @@
         android:layout_height="wrap_content"
         android:text="Calculate"
         android:id="@+id/mCalc"
-        android:layout_below="@+id/mPrice"
-        android:layout_alignEnd="@+id/mPrice"
-        android:layout_marginTop="53dp" />
+        android:layout_below="@+id/mStates"
+        android:layout_alignEnd="@+id/mStates" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -53,5 +52,13 @@
         android:id="@+id/mTotal"
         android:layout_alignParentEnd="true"
         android:layout_centerVertical="true" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mStates"
+        android:layout_below="@+id/mPrice"
+        android:layout_centerHorizontal="true"
+        android:spinnerMode="dropdown" />
 
 </RelativeLayout>

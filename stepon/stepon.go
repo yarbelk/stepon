@@ -2,15 +2,16 @@ package stepon
 
 import (
 	"fmt"
+	"sort"
 	"strings"
 )
 
 var taxRate map[string]float64 = map[string]float64{
-	"UT": 6.85,
-	"CA": 8.40,
-	"TX": 6.25,
-	"NV": 8.00,
 	"AL": 4.00,
+	"CA": 8.40,
+	"NV": 8.00,
+	"TX": 6.25,
+	"UT": 6.85,
 }
 
 type discountCutOff struct {
@@ -37,6 +38,15 @@ func ApplyTax(subtotal, tax float64) (total float64) {
 
 func GetTaxRate(state string) float64 {
 	return taxRate[strings.ToUpper(state)]
+}
+
+func GetStates() string {
+	var states []string = make([]string, 0)
+	for k := range taxRate {
+		states = append(states, k)
+	}
+	sort.Sort(sort.StringSlice(states))
+	return strings.Join(states, ",")
 }
 
 func ApplyDiscount(subtotal float64) (discounted float64) {

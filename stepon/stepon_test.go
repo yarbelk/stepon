@@ -2,6 +2,14 @@ package stepon
 
 import "testing"
 
+func TestGetStates(t *testing.T) {
+	expected := "AL,CA,NV,TX,UT"
+	if GetStates() != expected {
+		t.Logf("\"%v\", is wrong, should be \"%s\"\n", GetStates(), expected)
+		t.Fail()
+	}
+}
+
 func TestSubtotalCalculation(t *testing.T) {
 	var units int
 	var price float64
