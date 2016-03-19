@@ -48,7 +48,19 @@ func runFromStdin() {
 
 func main() {
 	opts = options{}
-	parser := flags.NewParser(&opts, flags.HelpFlag)
+	parser := flags.NewNamedParser("stepon", flags.HelpFlag)
+	parser.ShortDescription = "Helps you calculated owed money"
+	parser.LongDescription = fmt.Sprintf(`Stepon
+
+Takes in the number of units, price per unit,
+and state.
+
+Uses this to determin the subtotal, applys a discount
+(if elegable) on the subtotal, and the add tax for the
+given state.
+
+The supported states are %s.`, stepon.GetStates())
+	parser.AddGroup("", "Options for stepon", &opts)
 	switch len(os.Args) {
 	case 1: // Read from stdin
 		runFromStdin()
